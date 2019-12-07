@@ -1,1 +1,9 @@
+﻿@charset "UTF-8";
 
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
