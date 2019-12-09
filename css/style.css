@@ -61,3 +61,6 @@ header {
   color: #ffffff;
   border-radius: 3px;
 }
+.no-touch .cd-dropdown-trigger:hover {
+  background-color: #171b46;
+}
