@@ -64,3 +64,10 @@ header {
 .no-touch .cd-dropdown-trigger:hover {
   background-color: #171b46;
 }
+.cd-dropdown-trigger::before, .cd-dropdown-trigger::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  margin-top: -1px;
+  height: 2px;
+  width: 9px;
