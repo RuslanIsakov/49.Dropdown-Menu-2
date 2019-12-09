@@ -71,3 +71,10 @@ header {
   margin-top: -1px;
   height: 2px;
   width: 9px;
+ background: #ffffff;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: width 0.3s, -webkit-transform 0.3s;
+  -moz-transition: width 0.3s, -moz-transform 0.3s;
+  transition: width 0.3s, transform 0.3s;
+}
