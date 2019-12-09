@@ -52,3 +52,12 @@ header {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.cd-dropdown-trigger {
+  display: block;
+  position: relative;
+  padding: 0 36px 0 20px;
+  line-height: 40px;
+  background-color: #111433;
+  color: #ffffff;
+  border-radius: 3px;
+}
