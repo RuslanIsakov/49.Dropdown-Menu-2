@@ -40,3 +40,7 @@ input[type=text]::-ms-reveal {
   width: 0;
   height: 0;
 }
+header {
+  height: 100px;
+  background: #ffffff;
+}
