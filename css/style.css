@@ -114,3 +114,11 @@ header {
     -o-transform: translateX(5px) rotate(-45deg);
     transform: translateX(5px) rotate(-45deg);
   }
+ .cd-dropdown-trigger.dropdown-is-active::after {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}
