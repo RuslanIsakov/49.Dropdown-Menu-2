@@ -78,3 +78,11 @@ header {
   -moz-transition: width 0.3s, -moz-transform 0.3s;
   transition: width 0.3s, transform 0.3s;
 }
+.cd-dropdown-trigger::before {
+  right: 22px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
