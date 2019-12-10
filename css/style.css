@@ -94,3 +94,10 @@ header {
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
+@media only screen and (min-width: 1024px) {
+  .cd-dropdown-trigger {
+    font-size: 1.5rem;
+  }
+  .cd-dropdown-trigger.dropdown-is-active {
+    background-color: #3f8654;
+  }
