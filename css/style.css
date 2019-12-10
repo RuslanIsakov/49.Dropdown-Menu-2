@@ -101,3 +101,9 @@ header {
   .cd-dropdown-trigger.dropdown-is-active {
     background-color: #3f8654;
   }
+.no-touch .cd-dropdown-trigger.dropdown-is-active:hover {
+    background-color: #47975f;
+  }
+  .cd-dropdown-trigger.dropdown-is-active::before, .cd-dropdown-trigger.dropdown-is-active::after {
+    width: 14px;
+  }
