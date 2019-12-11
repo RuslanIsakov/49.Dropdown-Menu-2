@@ -128,3 +128,11 @@ header {
   height: 50px;
   line-height: 50px;
 }
+@media only screen and (min-width: 768px) {
+  .cd-dropdown h2,
+  .cd-dropdown-content a,
+  .cd-dropdown-content ul a {
+    height: 60px;
+    line-height: 60px;
+  }
+}
