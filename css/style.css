@@ -195,3 +195,10 @@ header {
   white-space: nowrap;
   color: transparent;
 }
+.cd-dropdown .cd-close::after, .cd-dropdown .cd-close::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
