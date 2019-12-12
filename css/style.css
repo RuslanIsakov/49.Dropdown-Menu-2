@@ -183,3 +183,11 @@ header {
   background-color: #111433;
   border-bottom: 1px solid #242643;
 }
+.cd-dropdown .cd-close {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 0;
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
