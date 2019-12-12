@@ -232,3 +232,7 @@ header {
   -ms-transform: translateY(0);
   -o-transform: translateY(0);
   transform: translateY(0);
+-webkit-transition: -webkit-transform 0.5s 0s, visibility 0s 0s;
+  -moz-transition: -moz-transform 0.5s 0s, visibility 0s 0s;
+  transition: transform 0.5s 0s, visibility 0s 0s;
+}
