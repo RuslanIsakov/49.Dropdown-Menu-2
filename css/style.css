@@ -269,3 +269,6 @@ color: #111433;
     right: 0;
     left: auto;
   }
+ .cd-dropdown h2, .cd-dropdown .cd-close {
+    display: none;
+  }
