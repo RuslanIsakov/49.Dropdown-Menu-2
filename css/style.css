@@ -272,3 +272,7 @@ color: #111433;
  .cd-dropdown h2, .cd-dropdown .cd-close {
     display: none;
   }
+.cd-dropdown.dropdown-is-active {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
