@@ -241,3 +241,15 @@ header {
     top: 5px;
   }
 }
+@media only screen and (min-width: 1024px) {
+  .cd-dropdown {
+    position: absolute;
+    top: calc(100% - 2px);
+    height: auto;
+    width: auto;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+    background-color: #ffffff;
