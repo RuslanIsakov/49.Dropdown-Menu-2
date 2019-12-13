@@ -265,3 +265,7 @@ color: #111433;
     -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s, -moz-transform 0.3s 0s;
     transition: opacity 0.3s 0s, visibility 0s 0.3s, transform 0.3s 0s;
   }
+.open-to-left .cd-dropdown {
+    right: 0;
+    left: auto;
+  }
