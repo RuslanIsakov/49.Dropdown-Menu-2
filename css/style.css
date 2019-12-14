@@ -292,3 +292,8 @@ color: #111433;
   height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
+ -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  transition: transform 0.3s;
+  padding-top: 50px;
+}
