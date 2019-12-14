@@ -323,3 +323,6 @@ color: #111433;
   color: #585a70;
   text-transform: uppercase;
 }
+.cd-dropdown-content .cd-divider + li > a, .cd-dropdown-content ul .cd-divider + li > a {
+  border-top-width: 0;
+}
