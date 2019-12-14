@@ -297,3 +297,13 @@ color: #111433;
   transition: transform 0.3s;
   padding-top: 50px;
 }
+.cd-dropdown-content a, .cd-dropdown-content ul a {
+  display: block;
+  color: #ffffff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-top-width: 1px;
+  border-color: #242643;
+  border-style: solid;
+}
