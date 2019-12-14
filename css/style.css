@@ -307,3 +307,6 @@ color: #111433;
   border-color: #242643;
   border-style: solid;
 }
+.cd-dropdown-content li:first-of-type > a, .cd-dropdown-content ul li:first-of-type > a {
+  border-top-width: 0;
+}
