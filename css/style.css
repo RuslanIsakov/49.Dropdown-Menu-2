@@ -313,3 +313,13 @@ color: #111433;
 .cd-dropdown-content li:last-of-type > a, .cd-dropdown-content ul li:last-of-type > a {
   border-bottom-width: 1px;
 }
+.cd-dropdown-content .cd-divider, .cd-dropdown-content ul .cd-divider {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #0b0e23;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #585a70;
+  text-transform: uppercase;
+}
