@@ -284,3 +284,11 @@ color: #111433;
     transition: opacity 0.3s 0s, visibility 0.3s 0s, transform 0.3s 0s;
   }
 }
+.cd-dropdown-content, .cd-dropdown-content ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
