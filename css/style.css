@@ -362,3 +362,7 @@ color: #111433;
   .cd-dropdown-content, .cd-dropdown-content ul {
     padding-top: 60px;
   }
+  .cd-dropdown-content a, .cd-dropdown-content ul a {
+    font-size: 1.8rem;
+  }
+}
