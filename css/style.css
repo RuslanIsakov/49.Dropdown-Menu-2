@@ -358,3 +358,7 @@ color: #111433;
 .dropdown-is-active .cd-dropdown-content, .dropdown-is-active .cd-dropdown-content ul {
   -webkit-overflow-scrolling: touch;
 }
+@media only screen and (min-width: 768px) {
+  .cd-dropdown-content, .cd-dropdown-content ul {
+    padding-top: 60px;
+  }
