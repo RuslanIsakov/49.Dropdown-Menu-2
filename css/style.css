@@ -378,3 +378,8 @@ color: #111433;
     font-size: 1.5rem;
     border-color: #ebebeb;
   }
+.cd-dropdown-content .cd-divider, .cd-dropdown-content ul .cd-divider {
+    background-color: transparent;
+    color: #b3b3b3;
+    border-top: 1px solid #ebebeb;
+  }
