@@ -393,3 +393,7 @@ color: #111433;
 .cd-dropdown-content .see-all a {
   color: #3f8654;
 }
+.cd-dropdown-content .cd-dropdown-gallery .cd-dropdown-item, .cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item {
+  height: 80px;
+  line-height: 80px;
+}
