@@ -383,3 +383,6 @@ color: #111433;
     color: #b3b3b3;
     border-top: 1px solid #ebebeb;
   }
+ .cd-dropdown-content .cd-divider + li > a, .cd-dropdown-content ul .cd-divider + li > a {
+    border-top-width: 1px;
+  }
