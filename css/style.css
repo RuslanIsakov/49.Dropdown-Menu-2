@@ -366,3 +366,8 @@ color: #111433;
     font-size: 1.8rem;
   }
 }
+@media only screen and (min-width: 1024px) {
+  .cd-dropdown-content, .cd-dropdown-content ul {
+    padding-top: 0;
+    overflow: visible;
+  }
