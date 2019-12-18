@@ -418,3 +418,8 @@ color: #111433;
   padding-left: 75px;
   position: relative;
 }
+.cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item p {
+  color: #111433;
+  font-size: 1.3rem;
+  display: none;
+}
