@@ -402,3 +402,6 @@ color: #111433;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+.cd-dropdown-content .cd-dropdown-gallery .cd-dropdown-item {
+  padding-left: 90px;
+}
