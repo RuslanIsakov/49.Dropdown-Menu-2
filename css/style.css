@@ -431,3 +431,8 @@ color: #111433;
   top: 50%;
   margin-top: -20px;
   width: 40px;
+ height: 40px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 40px 40px;
+}
