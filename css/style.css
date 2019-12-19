@@ -448,3 +448,6 @@ color: #111433;
 .cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item.item-4::before {
   background-image: url("../img/nucleo-icon-4.svg");
 }
+.cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item.item-5::before {
+  background-image: url("../img/nucleo-icon-5.svg");
+}
