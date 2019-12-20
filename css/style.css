@@ -472,3 +472,9 @@ color: #111433;
 .cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item.item-12::before {
   background-image: url("../img/nucleo-icon-12.svg");
 }
+@media only screen and (min-width: 1024px) {
+  .cd-dropdown-content {
+    position: static;
+    height: auto;
+    width: 280px;
+  }
