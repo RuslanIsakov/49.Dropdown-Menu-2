@@ -478,3 +478,6 @@ color: #111433;
     height: auto;
     width: 280px;
   }
+.cd-dropdown-content > li:last-of-type a {
+    border-bottom: none;
+  }
