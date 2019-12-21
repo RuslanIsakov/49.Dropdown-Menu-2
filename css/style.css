@@ -484,3 +484,11 @@ color: #111433;
 .no-touch .cd-dropdown-content > li:not(.has-children) a:hover {
     color: #3f8654;
   }
+.cd-dropdown-content.move-out > li > a, .cd-dropdown-content.move-out > li > .cd-search, .cd-dropdown-content.move-out > .cd-divider {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
