@@ -498,3 +498,8 @@ color: #111433;
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
     transform: translateX(0);
+ left: 100%;
+    height: auto;
+    background-color: #ffffff;
+    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.1);
+  }
