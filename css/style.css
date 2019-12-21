@@ -508,3 +508,7 @@ color: #111433;
     content: "";
     display: table;
   }
+ .open-to-left .cd-dropdown-content .cd-secondary-dropdown, .open-to-left .cd-dropdown-content .cd-dropdown-gallery, .open-to-left .cd-dropdown-content .cd-dropdown-icons {
+    left: auto;
+    right: 100%;
+  }
