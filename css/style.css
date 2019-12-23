@@ -524,3 +524,8 @@ color: #111433;
     -moz-animation: cd-fade-in 0.2s;
     animation: cd-fade-in 0.2s;
   }
+.cd-dropdown-content .cd-secondary-dropdown.fade-out, .cd-dropdown-content .cd-dropdown-gallery.fade-out, .cd-dropdown-content .cd-dropdown-icons.fade-out {
+    -webkit-animation: cd-fade-out 0.2s;
+    -moz-animation: cd-fade-out 0.2s;
+    animation: cd-fade-out 0.2s;
+  }
