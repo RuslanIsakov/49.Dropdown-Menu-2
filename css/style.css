@@ -569,3 +569,12 @@ color: #111433;
     width: 550px;
     padding-bottom: 65px;
   }
+ .cd-dropdown-content .cd-secondary-dropdown::before {
+    position: absolute;
+    content: '';
+    top: 290px;
+    left: 15px;
+    height: 1px;
+    width: 520px;
+    background-color: #ebebeb;
+  }
