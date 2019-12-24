@@ -564,3 +564,8 @@ color: #111433;
     width: 50%;
     float: left;
   }
+.cd-dropdown-content .cd-secondary-dropdown {
+    overflow: hidden;
+    width: 550px;
+    padding-bottom: 65px;
+  }
