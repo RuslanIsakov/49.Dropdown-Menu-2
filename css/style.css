@@ -578,3 +578,11 @@ color: #111433;
     width: 520px;
     background-color: #ebebeb;
   }
+.cd-dropdown-content .cd-secondary-dropdown > li > a {
+    color: #3f8654;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    line-height: 30px;
+    height: 30px;
+    pointer-events: none;
+  }
