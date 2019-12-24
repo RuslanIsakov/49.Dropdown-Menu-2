@@ -589,3 +589,10 @@ color: #111433;
  .cd-dropdown-content .cd-secondary-dropdown > li > a::after, .cd-dropdown-content .cd-secondary-dropdown > li > a::before {
     display: none;
   }
+.cd-dropdown-content .cd-secondary-dropdown.move-out > li > a {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+  }
