@@ -586,3 +586,6 @@ color: #111433;
     height: 30px;
     pointer-events: none;
   }
+ .cd-dropdown-content .cd-secondary-dropdown > li > a::after, .cd-dropdown-content .cd-secondary-dropdown > li > a::before {
+    display: none;
+  }
