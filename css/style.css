@@ -596,3 +596,11 @@ color: #111433;
     -o-transform: translateX(0);
     transform: translateX(0);
   }
+.cd-dropdown-content .cd-secondary-dropdown > li {
+    margin: 20px 0;
+    border-right-width: 1px;
+    border-color: #ebebeb;
+    border-style: solid;
+    padding: 0 30px;
+    height: 250px;
+  }
