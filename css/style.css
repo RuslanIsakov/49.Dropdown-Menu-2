@@ -604,3 +604,6 @@ color: #111433;
     padding: 0 30px;
     height: 250px;
   }
+ .cd-dropdown-content .cd-secondary-dropdown > li:nth-of-type(2n) {
+    border-right-width: 0;
+  }
