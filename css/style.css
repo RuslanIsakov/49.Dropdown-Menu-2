@@ -633,3 +633,7 @@ color: #111433;
     overflow: hidden;
     height: auto;
   }
+.cd-dropdown-content .cd-secondary-dropdown .go-back a {
+    padding-left: 20px;
+    color: transparent;
+  }
