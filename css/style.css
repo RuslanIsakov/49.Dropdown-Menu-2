@@ -616,3 +616,6 @@ color: #111433;
     position: relative;
     height: auto;
   }
+.cd-dropdown-content .cd-secondary-dropdown > li > ul > .go-back {
+    display: none;
+  }
