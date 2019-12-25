@@ -619,3 +619,9 @@ color: #111433;
 .cd-dropdown-content .cd-secondary-dropdown > li > ul > .go-back {
     display: none;
   }
+ .cd-dropdown-content .cd-secondary-dropdown a {
+    line-height: 25px;
+    height: 25px;
+    font-size: 1.3rem;
+    padding-left: 0;
+  }
