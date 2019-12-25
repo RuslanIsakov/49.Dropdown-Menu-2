@@ -628,3 +628,8 @@ color: #111433;
 .no-touch .cd-dropdown-content .cd-secondary-dropdown a:hover {
     color: #3f8654;
   }
+ .cd-dropdown-content .cd-secondary-dropdown ul {
+    padding-bottom: 25px;
+    overflow: hidden;
+    height: auto;
+  }
