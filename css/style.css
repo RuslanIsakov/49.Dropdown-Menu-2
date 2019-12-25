@@ -625,3 +625,6 @@ color: #111433;
     font-size: 1.3rem;
     padding-left: 0;
   }
+.no-touch .cd-dropdown-content .cd-secondary-dropdown a:hover {
+    color: #3f8654;
+  }
