@@ -643,3 +643,9 @@ color: #111433;
 .cd-dropdown-content .cd-secondary-dropdown .go-back a::before, .cd-dropdown-content .cd-secondary-dropdown .go-back a::after {
     left: 0;
   }
+.cd-dropdown-content .cd-secondary-dropdown .see-all {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
