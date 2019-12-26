@@ -653,3 +653,8 @@ color: #111433;
     width: 600px;
     padding-bottom: 100px;
   }
+.cd-dropdown-content .cd-dropdown-gallery > li {
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+  }
