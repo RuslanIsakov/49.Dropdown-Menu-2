@@ -681,3 +681,8 @@ color: #111433;
 .cd-dropdown-content .cd-dropdown-icons {
     width: 600px;
   }
+ .cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item {
+    height: 80px;
+    line-height: 1.2;
+    padding: 24px 0 0 85px;
+  }
