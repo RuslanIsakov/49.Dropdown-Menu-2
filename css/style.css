@@ -668,3 +668,7 @@ color: #111433;
     color: #3f8654;
     margin-bottom: 2em;
   }
+ .cd-dropdown-content .cd-dropdown-gallery > li:nth-last-of-type(2) a,
+  .cd-dropdown-content .cd-dropdown-gallery > li:last-of-type a {
+    margin-bottom: 0;
+  }
