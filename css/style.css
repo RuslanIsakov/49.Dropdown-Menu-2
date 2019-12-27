@@ -672,3 +672,9 @@ color: #111433;
   .cd-dropdown-content .cd-dropdown-gallery > li:last-of-type a {
     margin-bottom: 0;
   }
+.cd-dropdown-content .cd-dropdown-gallery img {
+    position: static;
+    height: auto;
+    width: 100%;
+    margin: 0 0 0.6em;
+  }
