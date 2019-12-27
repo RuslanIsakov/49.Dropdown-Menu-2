@@ -693,3 +693,7 @@ color: #111433;
     color: #3f8654;
     font-weight: bold;
   }
+.cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item p {
+    display: block;
+    font-size: 1.2rem;
+  }
