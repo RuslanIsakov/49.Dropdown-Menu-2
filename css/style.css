@@ -686,3 +686,6 @@ color: #111433;
     line-height: 1.2;
     padding: 24px 0 0 85px;
   }
+.cd-dropdown-content .cd-dropdown-icons .cd-dropdown-item:hover {
+    background: #ebebeb;
+  }
