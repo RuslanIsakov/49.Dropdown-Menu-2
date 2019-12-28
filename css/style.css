@@ -713,3 +713,6 @@ color: #111433;
     box-shadow: inset 2px 0 0 #3f8654;
     color: #3f8654;
   }
+.cd-dropdown-content > .has-children > a.is-active::before, .cd-dropdown-content > .has-children > a.is-active::after {
+    background: #3f8654;
+  }
