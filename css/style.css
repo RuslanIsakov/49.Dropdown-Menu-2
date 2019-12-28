@@ -709,3 +709,7 @@ color: #111433;
 .cd-dropdown-content > .has-children > .cd-secondary-dropdown.is-active > li > ul {
     visibility: visible;
   }
+.cd-dropdown-content > .has-children > a.is-active {
+    box-shadow: inset 2px 0 0 #3f8654;
+    color: #3f8654;
+  }
