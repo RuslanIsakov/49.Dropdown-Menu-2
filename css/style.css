@@ -703,3 +703,6 @@ color: #111433;
 .cd-dropdown-content > .has-children > ul {
     visibility: hidden;
   }
+ .cd-dropdown-content > .has-children > ul.is-active {
+    visibility: visible;
+  }
