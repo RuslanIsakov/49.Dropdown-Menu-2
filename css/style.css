@@ -740,3 +740,8 @@ color: #111433;
     visibility: visible;
   }
 }
+@keyframes cd-fade-in {
+  0% {
+    opacity: 0;
+    visibility: visible;
+  }
