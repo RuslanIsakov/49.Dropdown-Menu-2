@@ -720,3 +720,8 @@ color: #111433;
     box-shadow: inset -2px 0 0 #3f8654;
   }
 }
+@-webkit-keyframes cd-fade-in {
+  0% {
+    opacity: 0;
+    visibility: visible;
+  }
