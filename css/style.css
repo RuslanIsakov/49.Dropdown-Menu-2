@@ -750,3 +750,8 @@ color: #111433;
     visibility: visible;
   }
 }
+@-webkit-keyframes cd-fade-out {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
