@@ -787,3 +787,10 @@ color: #111433;
   -webkit-appearance: none;
   -moz-appearance: none;
   -ms-appearance: none;
+-o-appearance: none;
+  appearance: none;
+  background-color: #242643;
+  color: #ffffff;
+  border: none;
+  border-radius: 0;
+}
