@@ -775,3 +775,8 @@ color: #111433;
     opacity: 1;
     visibility: visible;
   }
+100% {
+    opacity: 0;
+    visibility: visible;
+  }
+}
