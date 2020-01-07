@@ -797,3 +797,6 @@ color: #111433;
 .cd-search input[type="search"]::-webkit-input-placeholder {
   color: #ffffff;
 }
+.cd-search input[type="search"]::-moz-placeholder {
+  color: #ffffff;
+}
