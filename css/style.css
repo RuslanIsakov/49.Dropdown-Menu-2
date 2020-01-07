@@ -811,3 +811,6 @@ color: #111433;
   color: #111433;
   outline: none;
 }
+.cd-search input[type="search"]:focus::-webkit-input-placeholder {
+  color: rgba(17, 20, 51, 0.4);
+}
