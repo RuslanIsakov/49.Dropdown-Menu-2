@@ -794,3 +794,6 @@ color: #111433;
   border: none;
   border-radius: 0;
 }
+.cd-search input[type="search"]::-webkit-input-placeholder {
+  color: #ffffff;
+}
