@@ -806,3 +806,8 @@ color: #111433;
 .cd-search input[type="search"]:-ms-input-placeholder {
   color: #ffffff;
 }
+.cd-search input[type="search"]:focus {
+  background: #ffffff;
+  color: #111433;
+  outline: none;
+}
