@@ -817,3 +817,6 @@ color: #111433;
 .cd-search input[type="search"]:focus::-moz-placeholder {
   color: rgba(17, 20, 51, 0.4);
 }
+.cd-search input[type="search"]:focus:-moz-placeholder {
+  color: rgba(17, 20, 51, 0.4);
+}
