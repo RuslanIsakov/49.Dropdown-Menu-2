@@ -830,3 +830,6 @@ color: #111433;
 .cd-search input[type="search"]::-webkit-input-placeholder {
     color: #b3b3b3;
   }
+.cd-search input[type="search"]::-moz-placeholder {
+    color: #b3b3b3;
+  }
