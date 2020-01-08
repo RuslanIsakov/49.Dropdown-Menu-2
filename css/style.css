@@ -823,3 +823,7 @@ color: #111433;
 .cd-search input[type="search"]:focus:-ms-input-placeholder {
   color: rgba(17, 20, 51, 0.4);
 }
+@media only screen and (min-width: 1024px) {
+  .cd-search input[type="search"] {
+    background-color: #ebebeb;
+  }
