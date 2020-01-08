@@ -835,3 +835,7 @@ color: #111433;
   }.cd-search input[type="search"]:-moz-placeholder {
     color: #b3b3b3;
   }
+.cd-search input[type="search"]:-ms-input-placeholder {
+    color: #b3b3b3;
+  }
+}
