@@ -839,3 +839,6 @@ color: #111433;
     color: #b3b3b3;
   }
 }
+.has-children > a, .go-back a {
+  position: relative;
+}
