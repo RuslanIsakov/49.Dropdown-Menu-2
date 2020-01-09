@@ -861,3 +861,10 @@ color: #111433;
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+.has-children > a::after, .go-back a::after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
