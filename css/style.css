@@ -842,3 +842,10 @@ color: #111433;
 .has-children > a, .go-back a {
   position: relative;
 }
+.has-children > a::before, .has-children > a::after, .go-back a::before, .go-back a::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  margin-top: -1px;
+  display: inline-block;
+  height: 2px;
