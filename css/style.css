@@ -868,3 +868,8 @@ color: #111433;
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
+@media only screen and (min-width: 1024px) {
+  .has-children > a::before, .has-children > a::after, .go-back a::before, .go-back a::after {
+    background: #b3b3b3;
+  }
+}
