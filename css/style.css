@@ -873,3 +873,6 @@ color: #111433;
     background: #b3b3b3;
   }
 }
+.has-children > a {
+  padding-right: 40px;
+}
