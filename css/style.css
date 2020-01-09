@@ -849,3 +849,8 @@ color: #111433;
   margin-top: -1px;
   display: inline-block;
   height: 2px;
+  width: 10px;
+  background: #ffffff;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
