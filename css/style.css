@@ -907,3 +907,6 @@ color: #111433;
   -webkit-transform-origin: 1px 50%;
   -moz-transform-origin: 1px 50%;
   -ms-transform-origin: 1px 50%;
+ -o-transform-origin: 1px 50%;
+  transform-origin: 1px 50%;
+}
