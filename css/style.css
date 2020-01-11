@@ -902,3 +902,8 @@ color: #111433;
 .cd-dropdown-content .go-back a {
   padding-left: 40px;
 }
+.cd-dropdown-content .go-back a::before, .cd-dropdown-content .go-back a::after {
+  left: 20px;
+  -webkit-transform-origin: 1px 50%;
+  -moz-transform-origin: 1px 50%;
+  -ms-transform-origin: 1px 50%;
