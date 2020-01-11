@@ -910,3 +910,9 @@ color: #111433;
  -o-transform-origin: 1px 50%;
   transform-origin: 1px 50%;
 }
+.cd-main-content {
+  background-color: #e6e6e6;
+  min-height: calc(100vh - 100px);
+  padding: 2em 5%;
+  line-height: 2;
+}
