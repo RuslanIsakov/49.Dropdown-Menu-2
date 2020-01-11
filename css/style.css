@@ -899,3 +899,6 @@ color: #111433;
     transform-origin: 1px 50%;
   }
 }
+.cd-dropdown-content .go-back a {
+  padding-left: 40px;
+}
