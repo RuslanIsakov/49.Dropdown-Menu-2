@@ -876,3 +876,11 @@ color: #111433;
 .has-children > a {
   padding-right: 40px;
 }
+.has-children > a::before, .has-children > a::after {
+  right: 20px;
+  -webkit-transform-origin: 9px 50%;
+  -moz-transform-origin: 9px 50%;
+  -ms-transform-origin: 9px 50%;
+  -o-transform-origin: 9px 50%;
+  transform-origin: 9px 50%;
+}
