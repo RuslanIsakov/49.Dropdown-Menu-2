@@ -916,3 +916,7 @@ color: #111433;
   padding: 2em 5%;
   line-height: 2;
 }
+.no-js .cd-dropdown-wrapper:hover .cd-dropdown {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translateY(0);
