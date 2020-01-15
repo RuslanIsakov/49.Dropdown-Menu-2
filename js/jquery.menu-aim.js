@@ -92,3 +92,8 @@
                 submenuDirection: "right",
                 tolerance: 75,  // bigger = more forgivey when entering submenu
                 enter: $.noop,
+exit: $.noop,
+                activate: $.noop,
+                deactivate: $.noop,
+                exitMenu: $.noop
+            }, opts);
