@@ -70,3 +70,13 @@
  * https://github.com/kamens/jQuery-menu-aim
  * MIT License
 */
+(function($) {
+
+    $.fn.menuAim = function(opts) {
+        // Initialize menu-aim for all elements in jQuery collection
+        this.each(function() {
+            init.call(this, opts);
+        });
+
+        return this;
+    };
