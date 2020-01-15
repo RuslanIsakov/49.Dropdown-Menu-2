@@ -80,3 +80,15 @@
 
         return this;
     };
+ function init(opts) {
+        var $menu = $(this),
+            activeRow = null,
+            mouseLocs = [],
+            lastDelayLoc = null,
+            timeoutId = null,
+            options = $.extend({
+                rowSelector: "> li",
+                submenuSelector: "*",
+                submenuDirection: "right",
+                tolerance: 75,  // bigger = more forgivey when entering submenu
+                enter: $.noop,
