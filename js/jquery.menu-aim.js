@@ -137,3 +137,9 @@ if (activeRow) {
                     // Cancel any previous activation delays
                     clearTimeout(timeoutId);
                 }
+  options.enter(this);
+                possiblyActivate(this);
+            },
+            mouseleaveRow = function() {
+                options.exit(this);
+            };
