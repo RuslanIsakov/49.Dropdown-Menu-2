@@ -114,3 +114,11 @@ mouseLocs.push({x: e.pageX, y: e.pageY});
         /**
          * Cancel possible row activations when leaving the menu entirely
          */
+var mouseleaveMenu = function() {
+                if (timeoutId) {
+                    clearTimeout(timeoutId);
+                }
+
+                // If exitMenu is supplied and returns true, deactivate the
+                // currently active row on menu exit.
+                if (options.exitMenu(this)) {
