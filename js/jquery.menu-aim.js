@@ -129,3 +129,11 @@ if (activeRow) {
                     activeRow = null;
                 }
             };
+/**
+         * Trigger a possible row activation whenever entering a new row.
+         */
+        var mouseenterRow = function() {
+                if (timeoutId) {
+                    // Cancel any previous activation delays
+                    clearTimeout(timeoutId);
+                }
