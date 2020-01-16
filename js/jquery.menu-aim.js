@@ -143,3 +143,13 @@ if (activeRow) {
             mouseleaveRow = function() {
                 options.exit(this);
             };
+/*
+         * Immediately activate a row if the user clicks on it.
+         */
+        var clickRow = function() {
+                activate(this);
+            };
+
+        /**
+         * Activate a menu row.
+         */
