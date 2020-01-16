@@ -104,3 +104,13 @@ exit: $.noop,
          * Keep track of the last few locations of the mouse.
          */
         var mousemoveDocument = function(e) {
+mouseLocs.push({x: e.pageX, y: e.pageY});
+
+                if (mouseLocs.length > MOUSE_LOCS_TRACKED) {
+                    mouseLocs.shift();
+                }
+            };
+
+        /**
+         * Cancel possible row activations when leaving the menu entirely
+         */
