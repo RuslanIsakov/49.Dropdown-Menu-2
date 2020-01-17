@@ -205,3 +205,11 @@ var activate = function(row) {
                         x: offset.left + $menu.outerWidth(),
                         y: upperLeft.y
                     },
+ lowerLeft = {
+                        x: offset.left,
+                        y: offset.top + $menu.outerHeight() + options.tolerance
+                    },
+                    lowerRight = {
+                        x: offset.left + $menu.outerWidth(),
+                        y: lowerLeft.y
+                    },
