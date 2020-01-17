@@ -219,3 +219,7 @@ var activate = function(row) {
                 if (!loc) {
                     return 0;
                 }
+
+                if (!prevLoc) {
+                    prevLoc = loc;
+                }
