@@ -165,3 +165,21 @@ var activate = function(row) {
                 options.activate(row);
                 activeRow = row;
             };
+/**
+         * Possibly activate a menu row. If mouse movement indicates that we
+         * shouldn't activate yet because user may be trying to enter
+         * a submenu's content, then delay and check again later.
+         */
+        var possiblyActivate = function(row) {
+                var delay = activationDelay();
+
+                if (delay) {
+                    timeoutId = setTimeout(function() {
+                        possiblyActivate(row);
+                    }, delay);
+                } else {
+                    activate(row);
+                }
+            };
+
+        /**
