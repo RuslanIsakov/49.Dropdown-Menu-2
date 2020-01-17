@@ -153,3 +153,15 @@ if (activeRow) {
         /**
          * Activate a menu row.
          */
+var activate = function(row) {
+                if (row == activeRow) {
+                    return;
+                }
+
+                if (activeRow) {
+                    options.deactivate(activeRow);
+                }
+
+                options.activate(row);
+                activeRow = row;
+            };
