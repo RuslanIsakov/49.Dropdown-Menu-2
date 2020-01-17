@@ -213,3 +213,9 @@ var activate = function(row) {
                         x: offset.left + $menu.outerWidth(),
                         y: lowerLeft.y
                     },
+ loc = mouseLocs[mouseLocs.length - 1],
+                    prevLoc = mouseLocs[0];
+
+                if (!loc) {
+                    return 0;
+                }
