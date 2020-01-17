@@ -183,3 +183,16 @@ var activate = function(row) {
             };
 
         /**
+ * Return the amount of time that should be used as a delay before the
+         * currently hovered row is activated.
+         *
+         * Returns 0 if the activation should happen immediately. Otherwise,
+         * returns the number of milliseconds that should be delayed before
+         * checking again to see if the row should be activated.
+         */
+        var activationDelay = function() {
+                if (!activeRow || !$(activeRow).is(options.submenuSelector)) {
+                    // If there is no other submenu row already active, then
+                    // go ahead and activate immediately.
+                    return 0;
+                }
