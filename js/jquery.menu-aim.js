@@ -196,3 +196,12 @@ var activate = function(row) {
                     // go ahead and activate immediately.
                     return 0;
                 }
+ var offset = $menu.offset(),
+                    upperLeft = {
+                        x: offset.left,
+                        y: offset.top - options.tolerance
+                    },
+                    upperRight = {
+                        x: offset.left + $menu.outerWidth(),
+                        y: upperLeft.y
+                    },
