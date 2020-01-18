@@ -223,3 +223,9 @@ var activate = function(row) {
                 if (!prevLoc) {
                     prevLoc = loc;
                 }
+if (prevLoc.x < offset.left || prevLoc.x > lowerRight.x ||
+                    prevLoc.y < offset.top || prevLoc.y > lowerRight.y) {
+                    // If the previous mouse location was outside of the entire
+                    // menu's bounds, immediately activate.
+                    return 0;
+                }
