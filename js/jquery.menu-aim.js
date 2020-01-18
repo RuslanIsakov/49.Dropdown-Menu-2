@@ -273,3 +273,7 @@ if (options.submenuDirection == "left") {
                 } else if (options.submenuDirection == "below") {
                     decreasingCorner = lowerRight;
                     increasingCorner = lowerLeft;
+ } else if (options.submenuDirection == "above") {
+                    decreasingCorner = upperLeft;
+                    increasingCorner = upperRight;
+                }
