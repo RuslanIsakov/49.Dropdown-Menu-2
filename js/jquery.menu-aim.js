@@ -235,3 +235,25 @@ if (prevLoc.x < offset.left || prevLoc.x > lowerRight.x ||
                     // for activation status, immediately activate.
                     return 0;
                 }
+ // Detect if the user is moving towards the currently activated
+                // submenu.
+                //
+                // If the mouse is heading relatively clearly towards
+                // the submenu's content, we should wait and give the user more
+                // time before activating a new row. If the mouse is heading
+                // elsewhere, we can immediately activate a new row.
+                //
+                // We detect this by calculating the slope formed between the
+                // current mouse location and the upper/lower right points of
+                // the menu. We do the same for the previous mouse location.
+                // If the current mouse location's slopes are
+                // increasing/decreasing appropriately compared to the
+                // previous's, we know the user is moving toward the submenu.
+                //
+                // Note that since the y-axis increases as the cursor moves
+                // down the screen, we are looking for the slope between the
+                // cursor and the upper right corner to decrease over time, not
+                // increase (somewhat counterintuitively).
+                function slope(a, b) {
+                    return (b.y - a.y) / (b.x - a.x);
+                };
