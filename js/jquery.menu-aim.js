@@ -257,3 +257,13 @@ if (prevLoc.x < offset.left || prevLoc.x > lowerRight.x ||
                 function slope(a, b) {
                     return (b.y - a.y) / (b.x - a.x);
                 };
+var decreasingCorner = upperRight,
+                    increasingCorner = lowerRight;
+
+                // Our expectations for decreasing or increasing slope values
+                // depends on which direction the submenu opens relative to the
+                // main menu. By default, if the menu opens on the right, we
+                // expect the slope between the cursor and the upper right
+                // corner to decrease over time, as explained above. If the
+                // submenu opens in a different direction, we change our slope
+                // expectations.
