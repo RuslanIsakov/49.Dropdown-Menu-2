@@ -229,3 +229,9 @@ if (prevLoc.x < offset.left || prevLoc.x > lowerRight.x ||
                     // menu's bounds, immediately activate.
                     return 0;
                 }
+ if (lastDelayLoc &&
+                        loc.x == lastDelayLoc.x && loc.y == lastDelayLoc.y) {
+                    // If the mouse hasn't moved since the last time we checked
+                    // for activation status, immediately activate.
+                    return 0;
+                }
