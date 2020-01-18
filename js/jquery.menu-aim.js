@@ -277,3 +277,7 @@ if (options.submenuDirection == "left") {
                     decreasingCorner = upperLeft;
                     increasingCorner = upperRight;
                 }
+var decreasingSlope = slope(loc, decreasingCorner),
+                    increasingSlope = slope(loc, increasingCorner),
+                    prevDecreasingSlope = slope(prevLoc, decreasingCorner),
+                    prevIncreasingSlope = slope(prevLoc, increasingCorner);
