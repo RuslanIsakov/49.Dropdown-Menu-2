@@ -267,3 +267,9 @@ var decreasingCorner = upperRight,
                 // corner to decrease over time, as explained above. If the
                 // submenu opens in a different direction, we change our slope
                 // expectations.
+if (options.submenuDirection == "left") {
+                    decreasingCorner = lowerLeft;
+                    increasingCorner = upperLeft;
+                } else if (options.submenuDirection == "below") {
+                    decreasingCorner = lowerRight;
+                    increasingCorner = lowerLeft;
