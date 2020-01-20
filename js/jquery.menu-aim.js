@@ -80,7 +80,8 @@
 
         return this;
     };
- function init(opts) {
+
+    function init(opts) {
         var $menu = $(this),
             activeRow = null,
             mouseLocs = [],
@@ -92,19 +93,20 @@
                 submenuDirection: "right",
                 tolerance: 75,  // bigger = more forgivey when entering submenu
                 enter: $.noop,
-exit: $.noop,
+                exit: $.noop,
                 activate: $.noop,
                 deactivate: $.noop,
                 exitMenu: $.noop
             }, opts);
- var MOUSE_LOCS_TRACKED = 3,  // number of past mouse locations to track
+
+        var MOUSE_LOCS_TRACKED = 3,  // number of past mouse locations to track
             DELAY = 300;  // ms delay when user appears to be entering submenu
 
         /**
          * Keep track of the last few locations of the mouse.
          */
         var mousemoveDocument = function(e) {
-mouseLocs.push({x: e.pageX, y: e.pageY});
+                mouseLocs.push({x: e.pageX, y: e.pageY});
 
                 if (mouseLocs.length > MOUSE_LOCS_TRACKED) {
                     mouseLocs.shift();
@@ -114,7 +116,7 @@ mouseLocs.push({x: e.pageX, y: e.pageY});
         /**
          * Cancel possible row activations when leaving the menu entirely
          */
-var mouseleaveMenu = function() {
+        var mouseleaveMenu = function() {
                 if (timeoutId) {
                     clearTimeout(timeoutId);
                 }
@@ -122,14 +124,15 @@ var mouseleaveMenu = function() {
                 // If exitMenu is supplied and returns true, deactivate the
                 // currently active row on menu exit.
                 if (options.exitMenu(this)) {
-if (activeRow) {
+                    if (activeRow) {
                         options.deactivate(activeRow);
                     }
 
                     activeRow = null;
                 }
             };
-/**
+
+        /**
          * Trigger a possible row activation whenever entering a new row.
          */
         var mouseenterRow = function() {
@@ -137,13 +140,15 @@ if (activeRow) {
                     // Cancel any previous activation delays
                     clearTimeout(timeoutId);
                 }
-  options.enter(this);
+
+                options.enter(this);
                 possiblyActivate(this);
             },
             mouseleaveRow = function() {
                 options.exit(this);
             };
-/*
+
+        /*
          * Immediately activate a row if the user clicks on it.
          */
         var clickRow = function() {
@@ -153,7 +158,7 @@ if (activeRow) {
         /**
          * Activate a menu row.
          */
-var activate = function(row) {
+        var activate = function(row) {
                 if (row == activeRow) {
                     return;
                 }
@@ -165,7 +170,8 @@ var activate = function(row) {
                 options.activate(row);
                 activeRow = row;
             };
-/**
+
+        /**
          * Possibly activate a menu row. If mouse movement indicates that we
          * shouldn't activate yet because user may be trying to enter
          * a submenu's content, then delay and check again later.
@@ -183,7 +189,7 @@ var activate = function(row) {
             };
 
         /**
- * Return the amount of time that should be used as a delay before the
+         * Return the amount of time that should be used as a delay before the
          * currently hovered row is activated.
          *
          * Returns 0 if the activation should happen immediately. Otherwise,
@@ -196,7 +202,8 @@ var activate = function(row) {
                     // go ahead and activate immediately.
                     return 0;
                 }
- var offset = $menu.offset(),
+
+                var offset = $menu.offset(),
                     upperLeft = {
                         x: offset.left,
                         y: offset.top - options.tolerance
@@ -205,7 +212,7 @@ var activate = function(row) {
                         x: offset.left + $menu.outerWidth(),
                         y: upperLeft.y
                     },
- lowerLeft = {
+                    lowerLeft = {
                         x: offset.left,
                         y: offset.top + $menu.outerHeight() + options.tolerance
                     },
@@ -213,7 +220,7 @@ var activate = function(row) {
                         x: offset.left + $menu.outerWidth(),
                         y: lowerLeft.y
                     },
- loc = mouseLocs[mouseLocs.length - 1],
+                    loc = mouseLocs[mouseLocs.length - 1],
                     prevLoc = mouseLocs[0];
 
                 if (!loc) {
@@ -223,19 +230,22 @@ var activate = function(row) {
                 if (!prevLoc) {
                     prevLoc = loc;
                 }
-if (prevLoc.x < offset.left || prevLoc.x > lowerRight.x ||
+
+                if (prevLoc.x < offset.left || prevLoc.x > lowerRight.x ||
                     prevLoc.y < offset.top || prevLoc.y > lowerRight.y) {
                     // If the previous mouse location was outside of the entire
                     // menu's bounds, immediately activate.
                     return 0;
                 }
- if (lastDelayLoc &&
+
+                if (lastDelayLoc &&
                         loc.x == lastDelayLoc.x && loc.y == lastDelayLoc.y) {
                     // If the mouse hasn't moved since the last time we checked
                     // for activation status, immediately activate.
                     return 0;
                 }
- // Detect if the user is moving towards the currently activated
+
+                // Detect if the user is moving towards the currently activated
                 // submenu.
                 //
                 // If the mouse is heading relatively clearly towards
@@ -257,7 +267,8 @@ if (prevLoc.x < offset.left || prevLoc.x > lowerRight.x ||
                 function slope(a, b) {
                     return (b.y - a.y) / (b.x - a.x);
                 };
-var decreasingCorner = upperRight,
+
+                var decreasingCorner = upperRight,
                     increasingCorner = lowerRight;
 
                 // Our expectations for decreasing or increasing slope values
@@ -267,40 +278,43 @@ var decreasingCorner = upperRight,
                 // corner to decrease over time, as explained above. If the
                 // submenu opens in a different direction, we change our slope
                 // expectations.
-if (options.submenuDirection == "left") {
+                if (options.submenuDirection == "left") {
                     decreasingCorner = lowerLeft;
                     increasingCorner = upperLeft;
                 } else if (options.submenuDirection == "below") {
                     decreasingCorner = lowerRight;
                     increasingCorner = lowerLeft;
- } else if (options.submenuDirection == "above") {
+                } else if (options.submenuDirection == "above") {
                     decreasingCorner = upperLeft;
                     increasingCorner = upperRight;
                 }
-var decreasingSlope = slope(loc, decreasingCorner),
+
+                var decreasingSlope = slope(loc, decreasingCorner),
                     increasingSlope = slope(loc, increasingCorner),
                     prevDecreasingSlope = slope(prevLoc, decreasingCorner),
                     prevIncreasingSlope = slope(prevLoc, increasingCorner);
-if (decreasingSlope < prevDecreasingSlope &&
+
+                if (decreasingSlope < prevDecreasingSlope &&
                         increasingSlope > prevIncreasingSlope) {
                     // Mouse is moving from previous location towards the
                     // currently activated submenu. Delay before activating a
                     // new menu row, because user may be moving into submenu.
- lastDelayLoc = loc;
+                    lastDelayLoc = loc;
                     return DELAY;
                 }
-lastDelayLoc = null;
+
+                lastDelayLoc = null;
                 return 0;
             };
 
         /**
          * Hook up initial menu events
          */
- $menu
+        $menu
             .mouseleave(mouseleaveMenu)
             .find(options.rowSelector)
                 .mouseenter(mouseenterRow)
-.mouseleave(mouseleaveRow)
+                .mouseleave(mouseleaveRow)
                 .click(clickRow);
 
         $(document).mousemove(mousemoveDocument);
