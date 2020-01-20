@@ -289,3 +289,10 @@ if (decreasingSlope < prevDecreasingSlope &&
  lastDelayLoc = loc;
                     return DELAY;
                 }
+lastDelayLoc = null;
+                return 0;
+            };
+
+        /**
+         * Hook up initial menu events
+         */
