@@ -286,3 +286,6 @@ if (decreasingSlope < prevDecreasingSlope &&
                     // Mouse is moving from previous location towards the
                     // currently activated submenu. Delay before activating a
                     // new menu row, because user may be moving into submenu.
+ lastDelayLoc = loc;
+                    return DELAY;
+                }
