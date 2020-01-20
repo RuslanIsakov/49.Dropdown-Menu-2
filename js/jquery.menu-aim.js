@@ -306,3 +306,4 @@ lastDelayLoc = null;
         $(document).mousemove(mousemoveDocument);
 
     };
+})(jQuery);
