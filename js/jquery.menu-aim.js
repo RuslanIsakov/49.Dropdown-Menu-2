@@ -296,3 +296,7 @@ lastDelayLoc = null;
         /**
          * Hook up initial menu events
          */
+ $menu
+            .mouseleave(mouseleaveMenu)
+            .find(options.rowSelector)
+                .mouseenter(mouseenterRow)
