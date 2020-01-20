@@ -300,3 +300,9 @@ lastDelayLoc = null;
             .mouseleave(mouseleaveMenu)
             .find(options.rowSelector)
                 .mouseenter(mouseenterRow)
+.mouseleave(mouseleaveRow)
+                .click(clickRow);
+
+        $(document).mousemove(mousemoveDocument);
+
+    };
