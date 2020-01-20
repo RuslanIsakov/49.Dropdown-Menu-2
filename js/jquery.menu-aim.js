@@ -281,3 +281,8 @@ var decreasingSlope = slope(loc, decreasingCorner),
                     increasingSlope = slope(loc, increasingCorner),
                     prevDecreasingSlope = slope(prevLoc, decreasingCorner),
                     prevIncreasingSlope = slope(prevLoc, increasingCorner);
+if (decreasingSlope < prevDecreasingSlope &&
+                        increasingSlope > prevIncreasingSlope) {
+                    // Mouse is moving from previous location towards the
+                    // currently activated submenu. Delay before activating a
+                    // new menu row, because user may be moving into submenu.
