@@ -9,3 +9,10 @@ jQuery(document).ready(function($){
 		event.preventDefault();
 		toggleNav();
 	});
+//on mobile - open submenu
+	$('.has-children').children('a').on('click', function(event){
+		//prevent default clicking on direct children of .has-children 
+		event.preventDefault();
+		var selected = $(this);
+		selected.next('ul').removeClass('is-hidden').end().parent('.has-children').parent('ul').addClass('move-out');
+	});
