@@ -4,3 +4,8 @@ jQuery(document).ready(function($){
 		event.preventDefault();
 		toggleNav();
 	});
+//close meganavigation
+	$('.cd-dropdown .cd-close').on('click', function(event){
+		event.preventDefault();
+		toggleNav();
+	});
