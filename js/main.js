@@ -35,3 +35,4 @@ exitMenu: function() {
         	return true;
         },
         submenuDirection: submenuDirection,
+ });
