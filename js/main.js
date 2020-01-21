@@ -30,3 +30,8 @@ jQuery(document).ready(function($){
         		$(row).children('ul').addClass('fade-out')
         	}
         },
+exitMenu: function() {
+        	$('.cd-dropdown-content').find('.is-active').removeClass('is-active');
+        	return true;
+        },
+        submenuDirection: submenuDirection,
