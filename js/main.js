@@ -48,3 +48,7 @@ function toggleNav(){
 $('.cd-dropdown-trigger').toggleClass('dropdown-is-active', navIsVisible);
 		if( !navIsVisible ) {
 			$('.cd-dropdown').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
+$('.has-children ul').addClass('is-hidden');
+				$('.move-out').removeClass('move-out');
+				$('.is-active').removeClass('is-active');
+			});	
