@@ -45,3 +45,6 @@ visibleNav = $(this).parent('ul').parent('.has-children').parent('ul');
 function toggleNav(){
 		var navIsVisible = ( !$('.cd-dropdown').hasClass('dropdown-is-active') ) ? true : false;
 		$('.cd-dropdown').toggleClass('dropdown-is-active', navIsVisible);
+$('.cd-dropdown-trigger').toggleClass('dropdown-is-active', navIsVisible);
+		if( !navIsVisible ) {
+			$('.cd-dropdown').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
