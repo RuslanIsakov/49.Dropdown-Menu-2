@@ -36,3 +36,6 @@ exitMenu: function() {
         },
         submenuDirection: submenuDirection,
  });
+//submenu items - go back link
+	$('.go-back').on('click', function(){
+		var selected = $(this),
