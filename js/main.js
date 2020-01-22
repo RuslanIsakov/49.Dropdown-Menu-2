@@ -52,3 +52,5 @@ $('.has-children ul').addClass('is-hidden');
 				$('.move-out').removeClass('move-out');
 				$('.is-active').removeClass('is-active');
 			});	
+}
+	}
