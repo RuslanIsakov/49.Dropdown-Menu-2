@@ -39,3 +39,6 @@ exitMenu: function() {
 //submenu items - go back link
 	$('.go-back').on('click', function(){
 		var selected = $(this),
+visibleNav = $(this).parent('ul').parent('.has-children').parent('ul');
+		selected.parent('ul').addClass('is-hidden').parent('.has-children').parent('ul').removeClass('move-out');
+	}); 
