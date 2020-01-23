@@ -59,3 +59,6 @@ $('.has-children ul').addClass('is-hidden');
 	if(!Modernizr.input.placeholder){
 $('[placeholder]').focus(function() {
 			var input = $(this);
+if (input.val() == input.attr('placeholder')) {
+				input.val('');
+		  	}
