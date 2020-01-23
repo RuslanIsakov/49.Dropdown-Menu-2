@@ -69,3 +69,5 @@ if (input.val() == input.attr('placeholder')) {
 }
 		}).blur();
 		$('[placeholder]').parents('form').submit(function() {
+$(this).find('[placeholder]').each(function() {
+				var input = $(this);
