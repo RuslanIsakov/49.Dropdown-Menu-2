@@ -2,3 +2,6 @@
 
 @mixin center($xy:xy) {
   @if $xy == xy {
+left: 50%;
+    top: 50%;
+    bottom: auto;
