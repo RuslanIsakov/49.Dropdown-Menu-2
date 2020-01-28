@@ -10,3 +10,6 @@ left: 50%;
   }
 @else if $xy == x {
     left: 50%;
+ right: auto;
+    @include transform(translateX(-50%));
+  }
