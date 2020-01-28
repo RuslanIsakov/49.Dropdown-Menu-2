@@ -13,3 +13,6 @@ left: 50%;
  right: auto;
     @include transform(translateX(-50%));
   }
+ @else if $xy == y {
+    top: 50%;
+    bottom: auto;
