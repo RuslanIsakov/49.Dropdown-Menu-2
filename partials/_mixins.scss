@@ -2,23 +2,24 @@
 
 @mixin center($xy:xy) {
   @if $xy == xy {
-left: 50%;
+    left: 50%;
     top: 50%;
     bottom: auto;
- right: auto;
+    right: auto;
     @include transform(translateX(-50%) translateY(-50%));
   }
-@else if $xy == x {
+  @else if $xy == x {
     left: 50%;
- right: auto;
+    right: auto;
     @include transform(translateX(-50%));
   }
- @else if $xy == y {
+  @else if $xy == y {
     top: 50%;
     bottom: auto;
- @include transform(translateY(-50%));
+    @include transform(translateY(-50%));
   }
 }
+
 // antialiasing mode font rendering
 
 @mixin font-smoothing {
