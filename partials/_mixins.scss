@@ -19,3 +19,6 @@ left: 50%;
  @include transform(translateY(-50%));
   }
 }
+// antialiasing mode font rendering
+
+@mixin font-smoothing {
