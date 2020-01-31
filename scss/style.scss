@@ -17,3 +17,11 @@ Primary style
 html {
 	font-size: 62.5%;
 }
+body {
+	font: {
+		size: 1.6rem;
+		family: $primary-font; // variables inside partials > _variables.scss
+	}
+	color: $color-1;
+	background-color: $color-3;
+}
