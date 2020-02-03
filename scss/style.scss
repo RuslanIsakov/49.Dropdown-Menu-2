@@ -63,3 +63,8 @@ header {
 	margin: 30px 0 0 5%; 
 	@include font-smoothing;
 }
+.cd-dropdown-trigger {
+	display: block;
+	position: relative;
+	padding: 0 36px 0 20px;
+	line-height: 40px;
