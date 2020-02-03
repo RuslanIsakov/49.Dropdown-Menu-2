@@ -79,3 +79,11 @@ background-color: $color-1;
 		content: '';
 		position: absolute;
 		top: 50%;
+margin-top: -1px;
+		height: 2px;
+		width: 9px;
+		background: $color-3;
+		@include backface-visibility(hidden);
+		
+		@include transition(width .3s, transform .3s);		
+	}
