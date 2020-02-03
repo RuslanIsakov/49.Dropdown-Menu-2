@@ -74,3 +74,8 @@ background-color: $color-1;
 .no-touch &:hover {
 		background-color: lighten($color-1, 5%);
 	}
+&::before, &::after {
+		/* this is the arrow inside the dropdown trigger*/
+		content: '';
+		position: absolute;
+		top: 50%;
