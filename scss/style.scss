@@ -71,3 +71,6 @@ header {
 background-color: $color-1;
 	color: $color-3;
 	border-radius: 3px;
+.no-touch &:hover {
+		background-color: lighten($color-1, 5%);
+	}
