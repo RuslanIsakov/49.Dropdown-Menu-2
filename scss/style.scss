@@ -87,3 +87,7 @@ margin-top: -1px;
 		
 		@include transition(width .3s, transform .3s);		
 	}
+&::before {
+		right: 22px;
+		@include transform(rotate(45deg));
+	}
