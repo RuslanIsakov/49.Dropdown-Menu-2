@@ -105,3 +105,5 @@ header {
 		right: 17px;
 		@include transform(rotate(-45deg));
 	}
+@include MQ(L) {
+		font-size: 1.5rem;
