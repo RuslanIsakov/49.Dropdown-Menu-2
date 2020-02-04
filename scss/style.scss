@@ -101,3 +101,7 @@ header {
 		right: 22px;
 		@include transform(rotate(45deg));
 	}
+&::after {
+		right: 17px;
+		@include transform(rotate(-45deg));
+	}
