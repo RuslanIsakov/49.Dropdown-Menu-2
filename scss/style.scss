@@ -116,3 +116,7 @@ header {
 				/* transform the arrow into a 'X' */
 				width: 14px;
 			}
+&::before {
+				/* transform the arrow into a 'X' */
+				@include transform(translateX(5px) rotate(-45deg));
+			}
