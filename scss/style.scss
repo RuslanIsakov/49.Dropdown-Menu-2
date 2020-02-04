@@ -109,3 +109,6 @@ header {
 		font-size: 1.5rem;
 &.dropdown-is-active {
 			background-color: $color-2;
+.no-touch &:hover {
+				background-color: lighten($color-2, 5%);
+			}
