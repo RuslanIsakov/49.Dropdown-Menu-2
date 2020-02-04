@@ -107,3 +107,5 @@ header {
 	}
 @include MQ(L) {
 		font-size: 1.5rem;
+&.dropdown-is-active {
+			background-color: $color-2;
