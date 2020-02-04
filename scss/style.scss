@@ -112,3 +112,7 @@ header {
 .no-touch &:hover {
 				background-color: lighten($color-2, 5%);
 			}
+&::before, &::after {
+				/* transform the arrow into a 'X' */
+				width: 14px;
+			}
