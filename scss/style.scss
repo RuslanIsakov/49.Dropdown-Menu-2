@@ -132,3 +132,7 @@ header {
 .cd-dropdown-content ul a {
 height: 50px;
 	line-height: 50px;
+@include MQ(M) {
+		height: 60px;
+		line-height: 60px;
+	}
