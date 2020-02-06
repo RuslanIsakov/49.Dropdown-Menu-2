@@ -173,3 +173,8 @@ color: tint($color-1, 30%);
 		background-color: $color-1;
 		border-bottom: 1px solid tint($color-1, 8%);
 	}
+.cd-close {
+		/* 'X' close icon - mobile version only */
+		position: absolute;
+		z-index: 1;
+		right: 0;
