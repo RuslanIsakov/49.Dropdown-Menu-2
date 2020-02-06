@@ -181,3 +181,8 @@ color: tint($color-1, 30%);
 top: 0;
 		height: 50px;
 		width: 50px;
+/* image replacement */
+		overflow: hidden;
+		text-indent: 100%;
+		white-space: nowrap;
+		color: transparent;
