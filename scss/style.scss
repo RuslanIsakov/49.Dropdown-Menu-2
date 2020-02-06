@@ -157,3 +157,7 @@ width: 100%;
 	background-color: $color-1;
 	color: $color-3;
 	visibility: hidden;
+
+	/* Force Hardware Acceleration */
+	@include backface-visibility(hidden);
+	@include transform(translateZ(0));
