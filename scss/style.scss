@@ -199,3 +199,8 @@ width: 2px;
 &::after {
 			@include transform(translateX(-50%) translateY(-50%) rotate(45deg));
 		}
+&::before {
+			@include transform(translateX(-50%) translateY(-50%) rotate(-45deg));
+		}
+
+	}
