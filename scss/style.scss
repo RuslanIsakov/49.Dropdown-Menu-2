@@ -209,3 +209,9 @@ width: 2px;
 		@include transform(translateY(0));
 		@include transition(transform .5s 0s, visibility 0s 0s);
 	}
+@include MQ(M) {
+
+		.cd-close {
+			top: 5px;
+		}
+	}
