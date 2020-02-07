@@ -204,3 +204,8 @@ width: 2px;
 		}
 
 	}
+&.dropdown-is-active {
+		visibility: visible;
+		@include transform(translateY(0));
+		@include transition(transform .5s 0s, visibility 0s 0s);
+	}
