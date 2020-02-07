@@ -186,3 +186,7 @@ top: 0;
 		text-indent: 100%;
 		white-space: nowrap;
 		color: transparent;
+&::after,
+		&::before {
+			/* this is the 'X' icon */
+			content: '';
