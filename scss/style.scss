@@ -190,3 +190,6 @@ top: 0;
 		&::before {
 			/* this is the 'X' icon */
 			content: '';
+position: absolute;
+			@include center;
+			height: 20px;
