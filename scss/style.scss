@@ -233,3 +233,7 @@ color: $color-1;
 			right: 0;
 			left: auto;
 		}
+h2, .cd-close {
+			/* on desktop - hide title and 'X' */
+			display: none;
+		}
