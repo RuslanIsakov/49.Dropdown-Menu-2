@@ -215,3 +215,7 @@ width: 2px;
 			top: 5px;
 		}
 	}
+@include MQ(L) {
+		position: absolute;
+		top: calc(100% - 2px);
+		/* reset style*/
