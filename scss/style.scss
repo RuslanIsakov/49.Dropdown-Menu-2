@@ -219,3 +219,7 @@ width: 2px;
 		position: absolute;
 		top: calc(100% - 2px);
 		/* reset style*/
+height: auto;
+		width: auto;
+		@include transform(translateX(0));
+		background-color: $color-3;
