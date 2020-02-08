@@ -228,3 +228,8 @@ color: $color-1;
 		opacity: 0;
 		@include transform(translateY(30px));
 		@include transition(opacity 0.3s 0s, visibility 0s 0.3s, transform 0.3s 0s);
+.open-to-left & {
+			/* use the .open-to-left class if you want to open the dropdown on the left */
+			right: 0;
+			left: auto;
+		}
