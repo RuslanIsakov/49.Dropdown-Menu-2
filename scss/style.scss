@@ -258,3 +258,7 @@ width: 100%;
 	a {
 display: block;
 		color: $color-3;
+/* truncate text with ellipsis if too long */
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
