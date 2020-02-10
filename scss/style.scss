@@ -262,3 +262,7 @@ display: block;
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
+border-top-width: 1px;
+		border-color: tint($color-1, 8%);
+		border-style: solid;
+	}
