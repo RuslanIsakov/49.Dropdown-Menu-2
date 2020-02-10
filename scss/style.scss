@@ -266,3 +266,6 @@ border-top-width: 1px;
 		border-color: tint($color-1, 8%);
 		border-style: solid;
 	}
+li:first-of-type > a {
+		border-top-width: 0;
+	}
