@@ -292,3 +292,7 @@ a, .cd-search, .cd-divider {
 
 		@include transition(opacity .3s, transform .3s);
 	}
+&.is-hidden {
+		/* push the secondary dropdown items to the right */
+		@include transform(translateX(100%));
+	}
