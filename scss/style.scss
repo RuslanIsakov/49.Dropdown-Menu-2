@@ -285,3 +285,10 @@ font-weight: bold;
 .cd-divider + li > a {
 		border-top-width: 0;
 	}
+a, .cd-search, .cd-divider {
+		/* Force Hardware Acceleration */
+		@include transform(translateZ(0));
+		@include backface-visibility(hidden);
+
+		@include transition(opacity .3s, transform .3s);
+	}
