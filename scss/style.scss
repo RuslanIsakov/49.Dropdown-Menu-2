@@ -282,3 +282,6 @@ font-weight: bold;
 		color: tint($color-1, 30%);
 		text-transform: uppercase;
 	}
+.cd-divider + li > a {
+		border-top-width: 0;
+	}
