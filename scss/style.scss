@@ -296,3 +296,6 @@ a, .cd-search, .cd-divider {
 		/* push the secondary dropdown items to the right */
 		@include transform(translateX(100%));
 	}
+&.is-hidden > li > a,
+	&.is-hidden > li > .cd-search,
+	&.is-hidden > .cd-divider, 
