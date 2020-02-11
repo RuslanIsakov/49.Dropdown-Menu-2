@@ -269,3 +269,6 @@ border-top-width: 1px;
 li:first-of-type > a {
 		border-top-width: 0;
 	}
+li:last-of-type > a {
+		border-bottom-width: 1px;
+	}
