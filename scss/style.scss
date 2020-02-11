@@ -277,3 +277,8 @@ li:last-of-type > a {
 		padding-bottom: 10px;
 		background-color: shade($color-1, 30%);
 		font-size: 1.1rem;
+font-weight: bold;
+		letter-spacing: 1px;
+		color: tint($color-1, 30%);
+		text-transform: uppercase;
+	}
