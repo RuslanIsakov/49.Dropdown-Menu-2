@@ -272,3 +272,8 @@ li:first-of-type > a {
 li:last-of-type > a {
 		border-bottom-width: 1px;
 	}
+.cd-divider {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		background-color: shade($color-1, 30%);
+		font-size: 1.1rem;
