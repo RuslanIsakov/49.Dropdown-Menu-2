@@ -308,3 +308,6 @@ a, .cd-search, .cd-divider {
 &.move-out > li > a,
 	&.move-out > li > .cd-search,
 	&.move-out > .cd-divider {
+/* push the dropdown items to the left when secondary dropdown slides in */
+		@include transform(translateX(-100%));
+	}
