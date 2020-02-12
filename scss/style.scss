@@ -305,3 +305,6 @@ a, .cd-search, .cd-divider {
 		/* lower down the dropdown items opacity - when secondary dropdown slides in or for dropdown items hidden on the right */
 		opacity: 0;
 	}
+&.move-out > li > a,
+	&.move-out > li > .cd-search,
+	&.move-out > .cd-divider {
