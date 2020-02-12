@@ -314,3 +314,5 @@ a, .cd-search, .cd-divider {
 .dropdown-is-active & {
 		-webkit-overflow-scrolling: touch;
 	}
+@include MQ(M) {
+		padding-top: 60px;
