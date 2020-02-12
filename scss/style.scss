@@ -311,3 +311,6 @@ a, .cd-search, .cd-divider {
 /* push the dropdown items to the left when secondary dropdown slides in */
 		@include transform(translateX(-100%));
 	}
+.dropdown-is-active & {
+		-webkit-overflow-scrolling: touch;
+	}
