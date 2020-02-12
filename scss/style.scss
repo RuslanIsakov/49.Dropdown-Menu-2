@@ -316,3 +316,7 @@ a, .cd-search, .cd-divider {
 	}
 @include MQ(M) {
 		padding-top: 60px;
+a {
+			font-size: 1.8rem;
+		}
+	}
