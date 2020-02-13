@@ -320,3 +320,6 @@ a {
 			font-size: 1.8rem;
 		}
 	}
+@include MQ(L) {
+		padding-top: 0;
+		overflow: visible;
