@@ -330,3 +330,8 @@ line-height: 50px;
 			font-size: 1.5rem;
 			border-color: darken($color-3, 8%);
 		}
+.cd-divider {
+			background-color: transparent;
+			color: darken($color-3, 30%);
+			border-top: 1px solid darken($color-3, 8%);
+		}
