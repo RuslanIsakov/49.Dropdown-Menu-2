@@ -341,3 +341,9 @@ line-height: 50px;
 &.is-hidden > li > a,
 		&.is-hidden > li > .cd-search,
 		&.is-hidden > .cd-divider, 
+&.move-out > li > a,
+		&.move-out > li > .cd-search,
+		&.move-out > .cd-divider {
+			/* reset mobile style */
+			opacity: 1;
+		}
