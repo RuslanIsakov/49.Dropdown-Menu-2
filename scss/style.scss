@@ -323,3 +323,6 @@ a {
 @include MQ(L) {
 		padding-top: 0;
 		overflow: visible;
+a {
+			color: $color-1;
+			height: 50px;
