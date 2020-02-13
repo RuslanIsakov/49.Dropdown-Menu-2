@@ -326,3 +326,7 @@ a {
 a {
 			color: $color-1;
 			height: 50px;
+line-height: 50px;
+			font-size: 1.5rem;
+			border-color: darken($color-3, 8%);
+		}
