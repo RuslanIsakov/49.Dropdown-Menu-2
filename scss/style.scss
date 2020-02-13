@@ -335,3 +335,6 @@ line-height: 50px;
 			color: darken($color-3, 30%);
 			border-top: 1px solid darken($color-3, 8%);
 		}
+.cd-divider + li > a {
+			border-top-width: 1px;
+		}
