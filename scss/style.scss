@@ -350,3 +350,9 @@ line-height: 50px;
 }
 	
 }
+.cd-dropdown-content {
+
+	.see-all a {
+		/* different style for the See all links */
+		color: $color-2;
+	}
