@@ -359,3 +359,8 @@ line-height: 50px;
 .cd-dropdown-gallery .cd-dropdown-item, .cd-dropdown-icons .cd-dropdown-item {
 		/* items with picture (or icon) and title */
 		height: 80px;
+line-height: 80px;
+
+		h3 {
+			/* truncate text with ellipsis if too long */
+			overflow: hidden;
