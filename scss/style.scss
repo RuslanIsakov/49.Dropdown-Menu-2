@@ -356,3 +356,6 @@ line-height: 50px;
 		/* different style for the See all links */
 		color: $color-2;
 	}
+.cd-dropdown-gallery .cd-dropdown-item, .cd-dropdown-icons .cd-dropdown-item {
+		/* items with picture (or icon) and title */
+		height: 80px;
