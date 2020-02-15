@@ -383,3 +383,9 @@ height: 40px;
 .cd-dropdown-icons .cd-dropdown-item {
 		padding-left: 75px;
 		position: relative;
+p {
+			color: $color-1;
+			font-size: 1.3rem;
+			/* hide description on small devices */
+			display: none;
+		}
