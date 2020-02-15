@@ -403,3 +403,6 @@ top: 50%;
 			background-position: center center;
 			background-size: 40px 40px;
 		}
+&.item-1::before {
+			background-image: url('../img/nucleo-icon-1.svg');
+		}
