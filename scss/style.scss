@@ -448,3 +448,6 @@ height: auto;
 > li:last-of-type a {
 			border-bottom: none;
 		}
+.no-touch & > li:not(.has-children) a:hover {
+			color: $color-2;
+		}
