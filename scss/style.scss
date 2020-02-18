@@ -445,3 +445,6 @@ top: 50%;
 		position: static;
 height: auto;
 		width: 280px;
+> li:last-of-type a {
+			border-bottom: none;
+		}
