@@ -440,3 +440,6 @@ top: 50%;
 			background-image: url('../img/nucleo-icon-12.svg');
 		}
 	}
+@include MQ(L) {
+		/* reset mobile style */
+		position: static;
