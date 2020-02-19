@@ -470,3 +470,7 @@ left: 100%;
 				left: auto;
 				right: 100%;
 			}
+&.is-hidden {
+				/* reset mobile style */
+				@include transform(translateX(0));
+			}
