@@ -455,3 +455,6 @@ height: auto;
 		&.move-out > li > .cd-search,
 		&.move-out > .cd-divider {
 			/* reset mobile style */
+@include transform(translateX(0));
+			opacity: 1;
+		}
