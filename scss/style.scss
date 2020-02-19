@@ -465,3 +465,8 @@ left: 100%;
 			height: auto;
 			background-color: $color-3;
 			box-shadow: 0 2px 14px rgba(#000, .1);
+.open-to-left & {
+				/* use the .open-to-left class if you want to open the dropdown on the left */
+				left: auto;
+				right: 100%;
+			}
