@@ -451,3 +451,7 @@ height: auto;
 .no-touch & > li:not(.has-children) a:hover {
 			color: $color-2;
 		}
+&.move-out > li > a,
+		&.move-out > li > .cd-search,
+		&.move-out > .cd-divider {
+			/* reset mobile style */
