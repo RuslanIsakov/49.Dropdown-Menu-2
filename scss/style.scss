@@ -458,3 +458,6 @@ height: auto;
 @include transform(translateX(0));
 			opacity: 1;
 		}
+.cd-secondary-dropdown, .cd-dropdown-gallery, .cd-dropdown-icons  {
+			@include clearfix;
+			@include transform(translateX(0));
