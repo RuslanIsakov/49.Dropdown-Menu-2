@@ -461,3 +461,7 @@ height: auto;
 .cd-secondary-dropdown, .cd-dropdown-gallery, .cd-dropdown-icons  {
 			@include clearfix;
 			@include transform(translateX(0));
+left: 100%;
+			height: auto;
+			background-color: $color-3;
+			box-shadow: 0 2px 14px rgba(#000, .1);
