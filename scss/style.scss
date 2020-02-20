@@ -496,3 +496,5 @@ margin: 0;
 					height: 100%;
 					line-height: 45px;
 					background: darken($color-3, 8%);
+pointer-events: auto;
+					@include transition(color .2s, background-color .2s);
