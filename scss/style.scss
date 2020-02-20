@@ -498,3 +498,9 @@ margin: 0;
 					background: darken($color-3, 8%);
 pointer-events: auto;
 					@include transition(color .2s, background-color .2s);
+.no-touch &:hover {
+						color: $color-3;
+						background-color: $color-1;
+					}
+				}
+			}
