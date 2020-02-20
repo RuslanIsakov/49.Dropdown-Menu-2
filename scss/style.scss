@@ -482,3 +482,6 @@ left: 100%;
 				/* animate secondary dropdown items when hovering over of of the .cd-dropdown-content list items */
 				@include animation(cd-fade-out .2s);
 			}
+	> .go-back {
+				display: none;
+			}
