@@ -478,3 +478,7 @@ left: 100%;
 				/* animate secondary dropdown items when hovering over of of the .cd-dropdown-content list items */
 				@include animation(cd-fade-in .2s);
 			}
+	&.fade-out {
+				/* animate secondary dropdown items when hovering over of of the .cd-dropdown-content list items */
+				@include animation(cd-fade-out .2s);
+			}
