@@ -517,3 +517,7 @@ pointer-events: auto;
 .cd-dropdown-icons > li, .cd-secondary-dropdown > li {
 			@include column(0.5);
 		}
+.cd-secondary-dropdown {
+			overflow: hidden;
+			width: 550px;
+			padding-bottom: 65px;
