@@ -526,3 +526,8 @@ pointer-events: auto;
 				position: absolute;
 				content: '';
 				top: 290px;
+left: 15px;
+				height: 1px;
+				width: 520px;
+				background-color: darken($color-3, 8%);
+			}
