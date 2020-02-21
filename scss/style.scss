@@ -514,3 +514,6 @@ pointer-events: auto;
 				width: calc(100% - 60px);
 			}
 		}
+.cd-dropdown-icons > li, .cd-secondary-dropdown > li {
+			@include column(0.5);
+		}
