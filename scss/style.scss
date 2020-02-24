@@ -531,3 +531,8 @@ left: 15px;
 				width: 520px;
 				background-color: darken($color-3, 8%);
 			}
+> li > a {
+				color: $color-2;
+				font-size: 1.6rem;
+				margin-bottom: 10px;
+				line-height: 30px;
