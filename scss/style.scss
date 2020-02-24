@@ -543,3 +543,7 @@ height: 30px;
 					display: none;
 				}
 			}
+&.move-out > li > a {
+				/* reset mobile style */
+				@include transform(translateX(0));
+			}
