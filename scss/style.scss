@@ -555,3 +555,6 @@ border-style: solid;
 				padding: 0 30px;
 				height: 250px;
 			}
+> li:nth-of-type(2n) {
+				border-right-width: 0; 
+			}
