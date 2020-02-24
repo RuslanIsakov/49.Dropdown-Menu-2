@@ -547,3 +547,7 @@ height: 30px;
 				/* reset mobile style */
 				@include transform(translateX(0));
 			}
+> li {
+				margin: 20px 0;
+				border-right-width: 1px;
+				border-color: darken($color-3, 8%);
