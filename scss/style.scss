@@ -572,3 +572,9 @@ a {
 				line-height: 25px;
 				height: 25px;
 				font-size: 1.3rem;
+padding-left: 0;
+
+				.no-touch &:hover {
+					color: $color-2;
+				}
+			}
