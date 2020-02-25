@@ -558,3 +558,6 @@ border-style: solid;
 > li:nth-of-type(2n) {
 				border-right-width: 0; 
 			}
+> li > ul {
+				/* reset mobile style */
+				@include transform(translate(0));
