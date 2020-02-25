@@ -561,3 +561,7 @@ border-style: solid;
 > li > ul {
 				/* reset mobile style */
 				@include transform(translate(0));
+position: relative;
+				height: auto;
+
+				> .go-back {
