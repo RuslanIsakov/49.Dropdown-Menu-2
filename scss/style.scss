@@ -589,3 +589,7 @@ ul {
 .no-touch &:hover {
 					color: transparent;
 				}
+&::before, &::after {
+					left: 0
+				}
+			}
