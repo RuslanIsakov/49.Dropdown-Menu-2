@@ -606,3 +606,7 @@ cd-dropdown-gallery {
 > li {
 				@include column(0.48);
 				margin-right: 4%;
+&:nth-of-type(2n) {
+					margin-right: 0;
+				}
+			}	
