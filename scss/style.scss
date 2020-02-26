@@ -603,3 +603,6 @@ ul {
 cd-dropdown-gallery {
 			width: 600px;
 			padding-bottom: 100px;
+> li {
+				@include column(0.48);
+				margin-right: 4%;
