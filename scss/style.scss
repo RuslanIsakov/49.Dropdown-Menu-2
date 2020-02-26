@@ -586,3 +586,6 @@ ul {
 .go-back a {
 				padding-left: 20px;
 				color: transparent;
+.no-touch &:hover {
+					color: transparent;
+				}
