@@ -610,3 +610,10 @@ cd-dropdown-gallery {
 					margin-right: 0;
 				}
 			}	
+.cd-dropdown-item {
+				padding: 0;
+				height: auto;
+				line-height: normal;
+				color: $color-2;
+				margin-bottom: 2em;
+			}
