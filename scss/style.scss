@@ -617,3 +617,7 @@ cd-dropdown-gallery {
 				color: $color-2;
 				margin-bottom: 2em;
 			}
+> li:nth-last-of-type(2) a,
+			> li:last-of-type a {
+				margin-bottom: 0;
+			}
