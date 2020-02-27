@@ -621,3 +621,10 @@ cd-dropdown-gallery {
 			> li:last-of-type a {
 				margin-bottom: 0;
 			}
+img {
+				position: static;
+				height: auto;
+				width: 100%;
+				margin: 0 0 0.6em;
+			}
+		}
