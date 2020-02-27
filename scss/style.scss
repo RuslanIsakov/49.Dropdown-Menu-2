@@ -637,3 +637,8 @@ img {
 &:hover {
 					background: darken($color-3, 8%);
 				}
+
+				h3 {
+					color: $color-2;
+					font-weight: bold;
+				}
