@@ -634,3 +634,6 @@ img {
 				height: 80px;
 				line-height: 1.2;
 				padding: 24px 0 0 85px;
+&:hover {
+					background: darken($color-3, 8%);
+				}
