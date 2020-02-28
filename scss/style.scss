@@ -667,3 +667,8 @@ p {
 			/* hover effect for .cd-dropdown-content items with subnavigation */
 			box-shadow: inset 2px 0 0 $color-2;
 			color: $color-2;
+&::before,
+			&::after {
+				background: $color-2;
+			}
+		}
