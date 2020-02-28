@@ -654,3 +654,7 @@ p {
 > .has-children > ul {
 			visibility: hidden;
 		}
+> .has-children > ul.is-active {
+			/* when hover over .cd-dropdown-content items - show subnavigation */
+			visibility: visible;
+		}
