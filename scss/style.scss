@@ -662,3 +662,8 @@ p {
 			/* if .cd-secondary-dropdown is visible - show also subnavigation */
 			visibility: visible;
 		}
+
+		> .has-children > a.is-active {
+			/* hover effect for .cd-dropdown-content items with subnavigation */
+			box-shadow: inset 2px 0 0 $color-2;
+			color: $color-2;
