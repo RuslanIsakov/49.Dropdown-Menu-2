@@ -672,3 +672,8 @@ p {
 				background: $color-2;
 			}
 		}
+.open-to-left & > .has-children > a.is-active {
+			box-shadow: inset -2px 0 0 $color-2;
+		}
+	}
+}
