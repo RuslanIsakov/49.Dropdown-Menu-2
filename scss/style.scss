@@ -646,3 +646,8 @@ p {
 					display: block;
 					font-size: 1.2rem;
 				}
+&::before {
+					left: 25px;
+				}
+			}
+		}
