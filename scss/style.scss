@@ -658,3 +658,7 @@ p {
 			/* when hover over .cd-dropdown-content items - show subnavigation */
 			visibility: visible;
 		}
+> .has-children > .cd-secondary-dropdown.is-active > li > ul {
+			/* if .cd-secondary-dropdown is visible - show also subnavigation */
+			visibility: visible;
+		}
