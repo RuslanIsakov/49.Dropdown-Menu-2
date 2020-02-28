@@ -651,3 +651,6 @@ p {
 				}
 			}
 		}
+> .has-children > ul {
+			visibility: hidden;
+		}
