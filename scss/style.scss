@@ -697,3 +697,8 @@ p {
 		visibility: visible;
 	}
 }
+.cd-search input[type="search"] {
+	width: 100%;
+	height: 50px;
+	padding: 0 20px;
+	@include appearance(none);
