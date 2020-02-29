@@ -687,3 +687,8 @@ p {
 		visibility: visible;
 	}
 }
+@include keyframes(cd-fade-out) {
+	0% {
+		opacity: 1;
+		visibility: visible;
+	}
