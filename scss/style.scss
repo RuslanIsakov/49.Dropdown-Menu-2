@@ -677,3 +677,8 @@ p {
 		}
 	}
 }
+@include keyframes(cd-fade-in) {
+	0% {
+		opacity: 0;
+		visibility: visible;
+	}
