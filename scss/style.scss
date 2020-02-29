@@ -702,3 +702,7 @@ p {
 	height: 50px;
 	padding: 0 20px;
 	@include appearance(none);
+background-color: tint($color-1, 8%);
+	color: $color-3;
+	border: none;
+	border-radius: 0;
