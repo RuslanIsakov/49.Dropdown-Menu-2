@@ -706,3 +706,6 @@ background-color: tint($color-1, 8%);
 	color: $color-3;
 	border: none;
 	border-radius: 0;
+@include placeholder {
+		color: $color-3;
+	}
