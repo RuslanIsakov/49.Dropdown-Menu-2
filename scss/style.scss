@@ -726,3 +726,7 @@ background-color: tint($color-1, 8%);
 }
 .has-children > a, .go-back a {
 	position: relative;
+&::before, &::after {
+		/* arrow icon in CSS - for element with nested unordered lists */
+		content: '';
+		position: absolute;
