@@ -713,3 +713,7 @@ background-color: tint($color-1, 8%);
 		background: $color-3;
 		color: $color-1;
 		outline: none;
+@include placeholder {
+			color: rgba($color-1, .4);
+		}
+	}
