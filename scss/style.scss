@@ -709,3 +709,7 @@ background-color: tint($color-1, 8%);
 @include placeholder {
 		color: $color-3;
 	}
+&:focus {
+		background: $color-3;
+		color: $color-1;
+		outline: none;
