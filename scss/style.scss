@@ -730,3 +730,11 @@ background-color: tint($color-1, 8%);
 		/* arrow icon in CSS - for element with nested unordered lists */
 		content: '';
 		position: absolute;
+top: 50%;
+		margin-top: -1px;
+		display: inline-block;
+		height: 2px;
+		width: 10px;
+		background: $color-3;
+		@include backface-visibility(hidden);
+	}
