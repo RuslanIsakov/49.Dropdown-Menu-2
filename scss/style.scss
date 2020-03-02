@@ -719,3 +719,8 @@ background-color: tint($color-1, 8%);
 	}
 @include MQ(L) {
 		background-color: darken($color-3, 8%);
+@include placeholder {
+			color: darken($color-3, 30%);
+		}
+	}
+}
