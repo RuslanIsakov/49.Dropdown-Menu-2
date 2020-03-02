@@ -717,3 +717,5 @@ background-color: tint($color-1, 8%);
 			color: rgba($color-1, .4);
 		}
 	}
+@include MQ(L) {
+		background-color: darken($color-3, 8%);
