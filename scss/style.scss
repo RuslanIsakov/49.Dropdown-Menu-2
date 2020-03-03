@@ -762,3 +762,8 @@ top: 50%;
 		@include transform-origin(9px 50%);
 	}
 }
+@include MQ(L) {
+	
+	.open-to-left .cd-dropdown-content > .has-children > a {
+		padding-left: 40px;
+		padding-right: 20px;
