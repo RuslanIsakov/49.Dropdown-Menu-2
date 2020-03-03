@@ -724,7 +724,9 @@ background-color: tint($color-1, 8%);
 		}
 	}
 }
-.has-children > a, .go-back a {
+&::before {
+		@include transform(rotate(45deg));
+	}
 	position: relative;
 &::before, &::after {
 		/* arrow icon in CSS - for element with nested unordered lists */
@@ -737,4 +739,7 @@ top: 50%;
 		width: 10px;
 		background: $color-3;
 		@include backface-visibility(hidden);
+	}
+&::before {
+		@include transform(rotate(45deg));
 	}
