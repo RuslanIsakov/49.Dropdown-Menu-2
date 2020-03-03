@@ -753,3 +753,12 @@ top: 50%;
 		}
 	}
 }
+.has-children > a {
+	padding-right: 40px;
+
+	&::before, &::after {
+		/* arrow goes on the right side - children navigation */
+		right: 20px;
+		@include transform-origin(9px 50%);
+	}
+}
