@@ -743,3 +743,6 @@ top: 50%;
 &::before {
 		@include transform(rotate(45deg));
 	}
+&::after {
+		@include transform(rotate(-45deg));
+	}
