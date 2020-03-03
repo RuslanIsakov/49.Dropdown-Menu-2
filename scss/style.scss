@@ -767,3 +767,10 @@ top: 50%;
 	.open-to-left .cd-dropdown-content > .has-children > a {
 		padding-left: 40px;
 		padding-right: 20px;
+&::before, &::after {
+			right: auto;
+			left: 20px;
+			@include transform-origin(1px 50%);
+		}
+	}
+}
