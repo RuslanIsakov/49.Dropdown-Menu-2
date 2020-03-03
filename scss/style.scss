@@ -746,3 +746,10 @@ top: 50%;
 &::after {
 		@include transform(rotate(-45deg));
 	}
+@include MQ(L) {
+
+		&::before, &::after {
+			background: darken($color-3, 30%);
+		}
+	}
+}
