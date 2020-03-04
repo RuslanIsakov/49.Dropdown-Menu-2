@@ -785,3 +785,6 @@ top: 50%;
 .cd-main-content {
 	background-color: darken($color-3, 10%);
 	min-height: calc(100vh - 100px);
+	padding: 2em 5%;
+	line-height: 2;
+}
