@@ -776,3 +776,9 @@ top: 50%;
 }
 .cd-dropdown-content .go-back a {
 	padding-left: 40px;
+&::before, &::after {
+		/* arrow goes on the left side - go back button */
+		left: 20px;
+		@include transform-origin(1px 50%);
+	}
+}
