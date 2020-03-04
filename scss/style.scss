@@ -782,3 +782,6 @@ top: 50%;
 		@include transform-origin(1px 50%);
 	}
 }
+.cd-main-content {
+	background-color: darken($color-3, 10%);
+	min-height: calc(100vh - 100px);
